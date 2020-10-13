@@ -211,7 +211,7 @@ body {
   box-sizing: border-box;
   font-size: 14px;
   font-weight: 500;
-  color: #222; }
+  color: rgba(10, 10, 10, 0.842); }
   .form-input::-webkit-input-placeholder {
     color: #999; }
   .form-input::-moz-placeholder {
