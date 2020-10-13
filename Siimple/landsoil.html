@@ -219,7 +219,7 @@
       </div>
       <div class="item">
         <p>Phone<span class="required">*</span></p>
-        <input type="text" name="name" required/>
+        <input type="text" name="phone" required/>
       </div>
 
       <!-- <div class="item">
@@ -234,17 +234,17 @@
       </div> -->
       <div class="item">
         <p>LAND ADDRESS<span class="required">*</span></p>
-        <input type="text" name="name" placeholder="Place" required/>
-        <input type="text" name="name" placeholder="Post Office" required/>
-        <input type="text" name="name" placeholder="Postal / Zip Code" required/>
+        <input type="text" name="place" placeholder="Place" required/>
+        <input type="text" name="po" placeholder="Post Office" required/>
+        <input type="text" name="pin" placeholder="Postal / Zip Code" required/>
         <p>LOCAL BODY<span class="required">*</span></p>
         <div class="question">
         <div class="question-answer">
-        <input type="radio" value="none" id="radio_1" name="investigator" required/>
+        <input type="radio" value="none" id="radio_1" name="gram" required/>
         <label for="radio_1" class="radio"><span>GRAMAPANCHAYAT</span></label>
-        <input type="radio" value="none" id="radio_2" name="investigator" required/>
+        <input type="radio" value="none" id="radio_2" name="munc" required/>
         <label for="radio_2" class="radio"><span>MUNCIPALITY</span></label>
-        <input type="radio" value="none" id="radio_3" name="investigator" required/>
+        <input type="radio" value="none" id="radio_3" name="coor" required/>
         <label for="radio_3" class="radio"><span>COORPORATION</span></label>
         </div></div>
         <!-- <div class="city-item">
@@ -261,41 +261,41 @@
         </div> -->
       </div>
       <div class="item">
-        <input type="text" name="name" required placeholder="NAME OF LOCAL BODY"/>
+        <input type="text" name="localbody" required placeholder="NAME OF LOCAL BODY"/>
       </div>
       <div class="city-item">
-        <input type="text" name="name" placeholder="WARD NUMBER"/>
+        <input type="text" name="wn" placeholder="WARD NUMBER"/>
       <!-- </div>
       <div class="item">
         <p>Email<span class="required">*</span></p>-->
-        <input type="text" name="name" placeholder="SURVEY NUMBER" required/>
+        <input type="text" name="sn" placeholder="SURVEY NUMBER" required/>
       </div>
       <div class="item">
-        <input type="text" name="name" required placeholder="VILLAGE"/>
+        <input type="text" name="village" required placeholder="VILLAGE"/>
       </div>
       <div class="item">
-        <input type="text" name="name" required placeholder="TALUK"/>
+        <input type="text" name="taluk" required placeholder="TALUK"/>
       </div>
       <div class="item">
-        <input type="text" name="name" required placeholder="DISTRICT"/>
+        <input type="text" name="district" required placeholder="DISTRICT"/>
       </div>
       <div class="item">
-        <input type="text" name="name" required placeholder="LAND AREA"/>
+        <input type="text" name="landarea" required placeholder="LAND AREA"/>
       </div>
       <div class="item">
-        <input type="text" name="name" required placeholder="EXPECTING LEASE RATE"/>
+        <input type="text" name="rate" required placeholder="EXPECTING LEASE RATE"/>
       </div>
       <div class="item">
           <P>LAND PICTURE</P>
-        <input type="file" name="name" required/>
+        <input type="file" name="img" required/>
       </div>
     </fieldset>
       <fieldset><legend>SOIL DETAILS</legend>
       <div class="item">
           <p>SOIL TEST REPORT</p>
-        <input type="file" name="name" required/>
+        <input type="file" name="soilrpt" required/>
         
-        <input type="text" name="name" placeholder="IRRIGATION FACILITY TYPE" required/>
+        <input type="text" name="irrtype" placeholder="IRRIGATION FACILITY TYPE" required/>
         <!-- <div class="city-item">
           <input type="text" name="name" placeholder="City" required/>
           <input type="text" name="name" placeholder="Region" required/>
@@ -312,17 +312,17 @@
         <div class="question">
         <p>DROUGHT AFFECTING AREA:<span class="required">*</span></p>
         <div class="question-answer">
-          <input type="radio" value="none" id="radio_4" name="investigator" required/>
+          <input type="radio" value="none" id="radio_4" name="daay" required/>
           <label for="radio_4" class="radio"><span>Yes</span></label>
-          <input type="radio" value="none" id="radio_5" name="investigator" required/>
+          <input type="radio" value="none" id="radio_5" name="daan" required/>
           <label for="radio_5" class="radio"><span>No</span></label>
         </div></div>
         <div class="question">
         <p>FLOOD AFFECTING AREA:<span class="required">*</span></p>
         <div class="question-answer">
-          <input type="radio" value="none" id="radio_6" name="investigator" required/>
+          <input type="radio" value="none" id="radio_6" name="faay" required/>
           <label for="radio_6" class="radio"><span>Yes</span></label>
-          <input type="radio" value="none" id="radio_7" name="investigator" required/>
+          <input type="radio" value="none" id="radio_7" name="faan" required/>
           <label for="radio_7" class="radio"><span>No</span></label>
         </div>
         </div>
@@ -450,9 +450,9 @@
         <div class="question">
           <p>STATUS</p>
           <div class="question-answer">
-            <input type="radio" value="none" id="radio_8" name="IRB"/>
+            <input type="radio" value="none" id="radio_8" name="stsa"/>
             <label for="radio_8" class="radio"><span>APPROVED</span></label>
-            <input type="radio" value="none" id="radio_9" name="IRB"/>
+            <input type="radio" value="none" id="radio_9" name="stsn"/>
             <label for="radio_9" class="radio"><span>NOT APPROVED</span></label>
           </div>
         </div>
