@@ -2722,9 +2722,9 @@
 .bx-slider-alt:before {
   content: "\ebdc";
 }
-.bx-slideshow:before {
+/*.bx-slideshow:before {
   content: "\ebdd";
-}
+} */
 .bx-smile:before {
   content: "\ebde";
 }

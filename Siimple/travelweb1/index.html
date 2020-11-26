@@ -1,0 +1,786 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ALMS</title>
+
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" type="text/css" href="css/datepicker.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/templatemo-style.css">                                   <!-- Templatemo style -->
+
+
+              <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+              <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <![endif]-->
+      </head>
+
+      <body>
+        <div class="tm-main-content" id="top">
+            <div class="tm-top-bar-bg"></div>
+            <div class="tm-top-bar" id="tm-top-bar">
+                <div class="container">
+                    <div class="row">
+                        <nav class="navbar navbar-expand-lg narbar-light">
+                            <a class="navbar-brand mr-auto" href="#">
+                                <!--<img src="img/logo.png" alt="Site logo">  -->
+                              ALMS
+                            </a>
+                            <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
+                                <ul class="navbar-nav ml-auto">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" href="#top">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-2">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-3">Lands</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-3">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-4">Contact Us</a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </nav>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- .tm-top-bar -->
+
+        <div class="tm-page-wrap mx-auto">
+            <section class="tm-banner">
+                <div class="tm-container-outer tm-banner-bg">
+                    <div class="container">
+
+                        <div class="row tm-banner-row tm-banner-row-header">
+                            <div class="col-xs-12">
+                                <div class="tm-banner-header"> <!-- </a><a class="navbar-brand mr-auto" href="file:///C:/Users/User/Desktop/travek%20webq/web/travelwebadmin/login-2.html"><img src="img/admin.png" alt="Site logo"></a> -->
+                                    <h1 class="text-uppercase tm-banner-title">WELCOME TO AGRICULTURAL LAND MANAGEMENT SYSTEM</h1>
+                                    <img src="img/dots-3.png" alt="Dots">
+                                    <p class="tm-banner-subtitle">We assist you to choose the best.</p>
+                                    <a href="javascript:void(0)" class="tm-down-arrow-link"><i class="fa fa-2x fa-angle-down tm-down-arrow"></i></a>
+                                </div>
+                            </div>  <!-- col-xs-12 -->
+                        </div> <!-- row -->
+                <!--       <div class="row tm-banner-row" id="tm-section-search">
+
+                            <form action="index.html" method="get" class="tm-search-form tm-section-pad-2">
+                                <div class="form-row tm-search-form-row">
+                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                                        <label for="inputRoom">Choose Your Season</label>
+                                            <select name="room" class="form-control tm-select" id="inputRoom">
+                                                <option value="1" selected>Seasonal</option>
+                                                <option value="2">All Places</option>
+
+                                        <input name="destination" type="text" class="form-control" >
+
+
+                                    </div>
+                                    <div class="form-group tm-form-group tm-form-group-1">
+                                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-2">
+                                            <label for="inputRoom">Type Of Stay</label>
+                                            <select name="room" class="form-control tm-select" id="inputRoom">
+                                                <option value="1" selected>Long Stay</option>
+                                                <option value="2">Short Stay</option>
+
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-2">
+                                            <label for="inputRoom">Type Of Travel</label>
+                                            <select name="room" class="form-control tm-select" id="inputRoom">
+                                                <option value="1" selected>Solo</option>
+                                                <option value="2">Family</option>
+                                                <option value="3">Friends</option>
+                                            </select>
+                                        </div>
+
+
+                                    </div>
+                                </div> --> <!-- form-row -->
+                        <!--        <div class="form-row tm-search-form-row">
+
+                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">
+                                        <label for="inputCheckIn">FROM</label>
+                                        <input name="check-in" type="text" class="form-control" id="inputCheckIn" placeholder="DD MM YYYY">
+                                    </div>
+                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">
+                                        <label for="inputCheckOut">TO</label>
+                                        <input name="check-out" type="text" class="form-control" id="inputCheckOut" placeholder="DD MM YYYY">
+                                    </div>
+                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                                        <label for="btnSubmit">&nbsp;</label>
+                                        <button type="submit" class="btn btn-primary tm-btn tm-btn-search text-uppercase" id="btnSubmit">SEARCH</button>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div> --> <!-- row -->
+                        <div class="tm-banner-overlay"></div>
+                    </div>  <!-- .container -->
+                </div>     <!-- .tm-container-outer -->
+            </section>
+
+            <section class="p-5 tm-container-outer tm-bg-gray">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 mx-auto tm-about-text-wrap text-center">
+                            <h2 class="text-uppercase mb-4">Your <strong>Journey</strong> is our priority</h2>
+                            <p class="mb-4">A journey of a thousand miles begins with a single step. ...</p>
+                            <a href="#" class="text-uppercase btn-primary tm-btn">Continue explore</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!--    <div class="tm-container-outer" id="tm-section-2">
+                <section class="tm-slideshow-section">
+                    <div class="tm-slideshow">
+                        <img src="img/HP01.jpg" alt="Image">
+                        <img src="img/HP02.jpg" alt="Image">
+                        <img src="img/HP03.jpg" alt="Image">
+                    </div>
+                    <div class="tm-slideshow-description tm-bg-primary">
+                        <h2 class="">HIMACHAL PRADESH</h2>
+                        <p>Himachal Pradesh is a northern Indian state in the Himalayas. It's home to scenic mountain towns and resorts such as Dalhousie. Host to the Dalai Lama, Himachal Pradesh has a strong Tibetan presence. This is reflected in its Buddhist temples and monasteries, as well as its vibrant Tibetan New Year celebrations. The region is also well known for its trekking, climbing and skiing areas.
+</p>
+                        <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
+                    </div>
+                </section>
+                <section class="clearfix tm-slideshow-section tm-slideshow-section-reverse">
+
+                    <div class="tm-right tm-slideshow tm-slideshow-highlight">
+                        <img src="img/kl02.jpg" alt="Image">
+                        <img src="img/kl03.jpg" alt="Image">
+                        <img src="img/kl01.jpg" alt="Image">
+                    </div>
+
+                    <div class="tm-slideshow-description tm-slideshow-description-left tm-bg-highlight">
+                        <h2 class="">KERALA</h2>
+                        <p>Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It's known for its palm-lined beaches and backwaters, a network of canals. Inland are the Western Ghats, mountains whose slopes support tea, coffee and spice plantations as well as wildlife. National parks like Eravikulam and Periyar, plus Wayanad and other sanctuaries, are home to elephants, langur monkeys and tigers</p>
+                        <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-highlight">Continue Reading</a>
+                    </div>
+
+                </section>
+                <section class="tm-slideshow-section">
+                    <div class="tm-slideshow">
+                        <img src="img/goa03.jpg" alt="Image">
+                        <img src="img/goa02.jpg" alt="Image">
+                        <img src="img/goa01.jpg" alt="Image">
+                    </div>
+                    <div class="tm-slideshow-description tm-bg-primary">
+                        <h2 class="">GOA</h2>
+                        <p>Goa is a state in western India with coastlines stretching along the Arabian Sea. Its long history as a Portuguese colony prior to 1961 is evident in its preserved 17th-century churches and the area’s tropical spice plantations. Goa is also known for its beaches, ranging from popular stretches at Baga and Palolem to those in laid-back fishing villages such as Agonda.</p>
+                        <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
+                    </div>
+                </section>
+            </div>
+            <div class="tm-container-outer" id="tm-section-3">
+                <ul class="nav nav-pills tm-tabs-links">
+                    <li class="tm-tab-link-li">
+                        <a href="#1a" data-toggle="tab" class="tm-tab-link">
+
+                            <H6>KERALA</H6>
+                        </a>
+                    </li>
+                    <li class="tm-tab-link-li">
+                        <a href="#2a" data-toggle="tab" class="tm-tab-link">
+
+                            <H6>HIMACHAL</H6>
+                        </a>
+                    </li>
+                    <li class="tm-tab-link-li">
+                        <a href="#3a" data-toggle="tab" class="tm-tab-link">
+
+                            <H6>GOA</H6>
+                        </a>
+                    </li>
+                    <li class="tm-tab-link-li">
+                        <a href="#4a" data-toggle="tab" class="tm-tab-link active"> --><!-- Current Active Tab -->
+
+                      <!--     <H6>DELHI</H6>
+                        </a>
+                    </li>
+                    <li class="tm-tab-link-li">
+                        <a href="#5a" data-toggle="tab" class="tm-tab-link">
+
+                            <H6>LADAKH</H6>
+                        </a>
+                    </li>
+                    <li class="tm-tab-link-li">
+                        <a href="#6a" data-toggle="tab" class="tm-tab-link">
+
+                            <H6>J&K</H6>
+                        </a>
+                    </li>
+                    <li class="tm-tab-link-li">
+                        <a href="#7a" data-toggle="tab" class="tm-tab-link">
+
+                            <H6>SIKKIM<H6>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content clearfix">
+
+                -->  <!-- Tab 1 -->
+                <div class="tm-container-outer" id="tm-section-2">
+                  <!--  <div class="tab-pane fade" id="1a"> -->
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/klhl01.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">BRINDAVAN RESIDENCY IN</h3>
+                                    <p class="tm-text-highlight">Thrissur</p>
+                                    <p class="tm-text-gray">Adjacent to Nandanam Convention Centre, this casual hotel is 14 minutes' walk from Thrissur railway station and 2 km from the ancient Vadakkunnathan Temple.....</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 2500</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/klhl04.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">SATKAR PARADISE</h3>
+                                    <p class="tm-text-highlight">Trivandrum</p>
+                                    <p class="tm-text-gray">Adjacent to trivandrum international airport, 0.5 km from the ancient sree patmanabaswami Temple...</p>
+                                </div>
+                                <div id="preload-hover-img"></div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 5000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/klhl02.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">BLUE SKY RESORT</h3>
+                                    <p class="tm-text-highlight">Idukki</p>
+                                    <p class="tm-text-gray">Resort @ hill station and former resort for the British Raj elite, it's surrounded by rolling hills dotted with tea plantations...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 6999</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/klhl03.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">MAECENAS IN</h3>
+                                    <p class="tm-text-highlight">Calicut</p>
+                                    <p class="tm-text-gray">On a busy street, this low-key hotel with an ornate facade is 2 km from Sarovaram Bio Park and the Regional Science Centre and Planetarium, as well as 4 km from Kozhikode Beach...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 4000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                        </div>
+
+                      <!--  <a href="#" class="text-uppercase btn-primary tm-btn mx-auto tm-d-table">Show More Places</a> -->
+                    </div> <!-- tab-pane -->
+
+                    <!-- Tab 2 -->
+                  <!--  <div class="tab-pane fade" id="2a"> -->
+                  <div class="tm-container-outer" id="tm-section-3">
+
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/hphl01.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">SOUTH RESORT HOTEL</h3>
+                                    <p class="tm-text-highlight">South Himachal</p>
+                                    <p class="tm-text-gray">Courteous treatment will make a customer a walking advertisement...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 3000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/hphl02.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">SNOW VALLEY RESORT</h3>
+                                    <p class="tm-text-highlight">South Himachal</p>
+                                    <p class="tm-text-gray">Hospitality exists when you believe the other person is on your side...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 5999</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/hphl03.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">GALLE HILL RESORT</h3>
+                                    <p class="tm-text-highlight">Mashobra</p>
+                                    <p class="tm-text-gray">Hospitality is simply an opportunity to show love and care...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 4300</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/hphl04.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">SUMIT LE ROYAL</h3>
+                                    <p class="tm-text-highlight">NORTH HIMACHAL</p>
+                                    <p class="tm-text-gray">Hospitality exists when you believe the other person is on your side...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 800</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                        </div>
+
+                      <!--  <a href="#" class="text-uppercase btn-primary tm-btn mx-auto tm-d-table">Show More Places</a> -->
+                    </div> <!-- tab-pane -->
+
+                    <!-- Tab 3 -->
+                <!--    <div class="tab-pane fade" id="3a"> -->
+                    <div class="tm-container-outer" id="tm-section-4">
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/goahl01.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">GOA RESIDENCY IN</h3>
+                                    <p class="tm-text-highlight">panaji</p>
+                                    <p class="tm-text-gray">Hotel life is about the same in every latitude...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR  4500</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/goahl02.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">TULIP RESIDENCY</h3>
+                                    <p class="tm-text-highlight">madgon</p>
+                                    <p class="tm-text-gray">No matter how nice a hotel is, it's not home...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">inr 5678</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/goahl03.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">HARD ROCK </h3>
+                                    <p class="tm-text-highlight">south goa</p>
+                                    <p class="tm-text-gray">A spa hotel? It's like a normal hotel, only in reception there's a picture of a pebble...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 7500</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/goahl04.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">DINE AND DEVINE</h3>
+                                    <p class="tm-text-highlight">panaji</p>
+                                    <p class="tm-text-gray">great hotels have always been social ideas, flawless mirrors to the particular societies they service...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 800</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                        </div>
+
+                      <!--  <a href="#" class="text-uppercase btn-primary tm-btn mx-auto tm-d-table">Show More Places</a> -->
+                    </div> <!-- tab-pane -->
+
+                    <!-- Tab 4 -->
+                  <!--  <div class="tab-pane fade show active" id="4a"> -->
+                  <div class="tm-container-outer" id="tm-section-5">
+                    <!-- Current Active Tab WITH "show active" classes in DIV tag -->
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/dlhl01.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">SUNRISE</h3>
+                                    <p class="tm-text-highlight">saket</p>
+                                    <p class="tm-text-gray">Super-luxury hotels are being built in outer space. The new type of heaven is being offered to humans...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 7000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/dlhl02.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">HOTEL TAJ</h3>
+                                    <p class="tm-text-highlight">malviya nagar</p>
+                                    <p class="tm-text-gray">It is expensive to live in hotels, even cheap ones - more expensive than renting...</p>
+                                </div>
+                                <div id="preload-hover-img"></div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 10000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/dlhl03.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">RAINBOW</h3>
+                                    <p class="tm-text-highlight">rajiv chowk</p>
+                                    <p class="tm-text-gray">The strange thing about hotel rooms is that they look familiar and seem familiar and have many of the accoutrements that seem domestic and familiar, but they are really weird, alien and anonymous places...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 8765</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/dlhl04.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">PARADISE</h3>
+                                    <p class="tm-text-highlight">paharganj</p>
+                                    <p class="tm-text-gray">The great advantage of a hotel is that it is a refuge from home life...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 900</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                        </div>
+
+                      <!--  <a href="#" class="text-uppercase btn-primary tm-btn mx-auto tm-d-table">Show More Places</a> -->
+                    </div> <!-- tab-pane -->
+
+                    <!-- Tab 5 -->
+                  <!--  <div class="tab-pane fade" id="5a"> -->
+                  <div class="tm-container-outer" id="tm-section-6">
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/lk01.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">HOTEL SURYA</h3>
+                                    <p class="tm-text-highlight">Zanskar Valley</p>
+                                    <p class="tm-text-gray">An old small hotel is much more valuable than a seven-star hotel because the former has a spirit and a literary posture...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 800</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/lk02.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">HOTEL SKY VIEW</h3>
+                                    <p class="tm-text-highlight">Pangong Tso Lake</p>
+                                    <p class="tm-text-gray">The loneliest place to be is a hotel room in a big city in early evening...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 900</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/lk03.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">HOTEL MAHARAJ</h3>
+                                    <p class="tm-text-highlight">Nubra Valley</p>
+                                    <p class="tm-text-gray">Hotel rooms inhabit a separate moral universe...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 1000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/lk04.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">GRAND ROTARY HOTEL</h3>
+                                    <p class="tm-text-highlight">Spituk Gompa</p>
+                                    <p class="tm-text-gray">Hospitality is almost impossible to teach. It’s all about hiring the right people...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 1200</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                        </div>
+
+                      <!--  <a href="#" class="text-uppercase btn-primary tm-btn mx-auto tm-d-table">Show More Places</a> -->
+                    </div> <!-- tab-pane -->
+
+                    <!-- Tab 6 -->
+                <!--    <div class="tab-pane fade" id="6a">  -->
+                    <div class="tm-container-outer" id="tm-section-7">
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/jkhl01.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">HOTEL TAWI</h3>
+                                    <p class="tm-text-highlight">jammu</p>
+                                    <p class="tm-text-gray">A hotel should relieve travelers of their insecurity and loneliness. It should make them feel warm and cozy...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 5600</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/jkhl02.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">HOTEL GRAND GRAGON</h3>
+                                    <p class="tm-text-highlight">srinagar</p>
+                                    <p class="tm-text-gray">It has been, and continues to be, our responsibility to fill the earth with the light and warmth of hospitality...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 8900</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/jkhl03.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">HOTEL NALANDA</h3>
+                                    <p class="tm-text-highlight">udhampur</p>
+                                    <p class="tm-text-gray">he four most important words in the English language are, ‘What do you think?’ Listen to your people and learn...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 3400</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/jkhl04.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">HOTEL PINE</h3>
+                                    <p class="tm-text-highlight">zanskar</p>
+                                    <p class="tm-text-gray">Never say no when a client asks for something, even if it is the moon. You can always try, and anyhow there is plenty of time afterwards to explain that it was not possible...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 6570</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                        </div>
+
+                    <!--    <a href="#" class="text-uppercase btn-primary tm-btn mx-auto tm-d-table">Show More Places</a> -->
+                    </div> <!-- tab-pane -->
+
+                    <!-- Tab 7 -->
+                  <!--  <div class="tab-pane fade" id="7a"> -->
+            <div class="tm-container-outer" id="tm-section-8">
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/skhl01.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">STERLING GANGTOK</h3>
+                                    <p class="tm-text-highlight">gangtok</p>
+                                    <p class="tm-text-gray">The important thing is to engage guests in the hotel. Don’t go in saying you know this and you know that, and this is the way it will be...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 5460</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/skhl02.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">SUMIT GOLDEN RESORT</h3>
+                                    <p class="tm-text-highlight">pelling</p>
+                                    <p class="tm-text-gray">You can learn everything that there is to know about the industry or the player from the company that is performing better or worse...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 7620</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/skhl03.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">UDAAN HOTEL</h3>
+                                    <p class="tm-text-highlight">lachung</p>
+                                    <p class="tm-text-gray">Remember, a person who wins success in hospitality may have been counted out many times before. He wins because he refuses to give up...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 2000</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/skhl04.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">HOTEL CASTLE</h3>
+                                    <p class="tm-text-highlight">yuksom</p>
+                                    <p class="tm-text-gray">There is only one boss. The Guest. And he can fire everybody in the company from the chairman on down, simply by spending his money somewhere else...</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">INR 3500</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+
+                            </div>
+                        </div>
+
+                    <!--    <a href="#" class="text-uppercase btn-primary tm-btn mx-auto tm-d-table">Show More Places</a> -->
+                    </div> <!-- tab-pane -->
+                </div>
+            </div>
+
+          <!--  <div class="tm-container-outer tm-position-relative" id="tm-section-4">
+                <div id="google-map"></div>
+                <form action="index.html" method="post" class="tm-contact-form">
+                    <div class="form-group tm-name-container">
+                        <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
+                    </div>
+                    <div class="form-group tm-email-container">
+                        <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject"  required/>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary tm-btn-primary tm-btn-send text-uppercase">Send Message Now</button>
+                </form>
+            </div> --> <!-- .tm-container-outer -->
+
+            <footer class="tm-container-outer">
+              <!--   <p class="mb-0">Copyright © <span class="tm-current-year">2018</span> TRAVEL WEBQ
+
+                . Designed by <a rel="nofollow" href="https://www.facebook.com/ajith.santhoshwarrier" target="_parent">AJITH TRAVEL WEBQ</a></p>
+          -->  </footer>
+        </div>
+    </div> <!-- .main-content -->
+
+    <!-- load JS files -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/datepicker.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script>
+ /* Google Maps
+        ------------------------------------------------*/
+        var map = '';
+        var center;
+
+        function initialize() {
+            var mapOptions = {
+                zoom: 16,
+                center: new google.maps.LatLng(37.769725, -122.462154),
+                scrollwheel: false
+            };
+
+            map = new google.maps.Map(document.getElementById('google-map'),  mapOptions);
+
+            google.maps.event.addDomListener(map, 'idle', function() {
+              calculateCenter();
+          });
+
+            google.maps.event.addDomListener(window, 'resize', function() {
+              map.setCenter(center);
+          });
+        }
+
+        function calculateCenter() {
+            center = map.getCenter();
+        }
+
+        function loadGoogleMap(){
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDVWt4rJfibfsEDvcuaChUaZRS5NXey1Cs&v=3.exp&sensor=false&' + 'callback=initialize';
+            document.body.appendChild(script);
+        }
+
+        /* DOM is ready
+        ------------------------------------------------*/
+        $(function(){
+
+            // Change top navbar on scroll
+            $(window).on("scroll", function() {
+                if($(window).scrollTop() > 100) {
+                    $(".tm-top-bar").addClass("active");
+                } else {
+                 $(".tm-top-bar").removeClass("active");
+                }
+            });
+
+            // Smooth scroll to search form
+            $('.tm-down-arrow-link').click(function(){
+                $.scrollTo('#tm-section-search', 300, {easing:'linear'});
+            });
+
+            // Date Picker in Search form
+            var pickerCheckIn = datepicker('#inputCheckIn');
+            var pickerCheckOut = datepicker('#inputCheckOut');
+
+            // Update nav links on scroll
+            $('#tm-top-bar').singlePageNav({
+                currentClass:'active',
+                offset: 60
+            });
+
+            // Close navbar after clicked
+            $('.nav-link').click(function(){
+                $('#mainNav').removeClass('show');
+            });
+
+            // Slick Carousel
+            $('.tm-slideshow').slick({
+                infinite: true,
+                arrows: true,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+
+            loadGoogleMap();                                       // Google Map
+            $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
+        });
+
+
+    </script>
+
+</body>
+</html>
